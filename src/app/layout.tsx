@@ -1,11 +1,7 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
-import {
-  alexandria,
-  playfair_display,
-  brygada_1918,
-  noto_serif_devanagari,
-} from "@/lib/fonts";
+import { alexandria, playfair_display } from "@/lib/fonts";
+import Header from "@/components/Header";
 
 export const metadata = {
   title: "Create Next App",
@@ -20,9 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${alexandria.variable} ${playfair_display.variable} ${brygada_1918.variable} ${noto_serif_devanagari.variable}`}
+        className={`${alexandria.variable} ${playfair_display.variable} bg-white`}
       >
         <Navbar />
+        <Header />
 
         {children}
       </body>

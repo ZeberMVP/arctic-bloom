@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Artic Bloom | Blog",
+  description:
+    "Embracing the Technological Revolution: A Journey into the Future",
+};
+
 export default function Home() {
   return (
     <div>

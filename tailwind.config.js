@@ -15,8 +15,6 @@ module.exports = {
       fontFamily: {
         alexandria: ["var(--font-alexandria)"],
         playfair: ["var(--font-playfair-display)"],
-        brygada: ["var(--font-brygada-1918"],
-        noto: ["var(--font-noto-serif-devanagari"],
       },
     },
   },
