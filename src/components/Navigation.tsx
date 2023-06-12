@@ -16,13 +16,17 @@ export default function Navigation({ navLinks }: NavigationProps) {
   const pathname = usePathname();
 
   return (
-    <div className="hidden space-x-16 mt-2 lg:flex font-medium italic text-black">
+    <div className="flex-none gap-2 flex-col sm:flex-row sm:space-x-4 lg:space-x-16 font-medium italic text-black navbar-end">
       {navLinks.map((link) => {
         const isActive = pathname === link.href;
 
         return (
           <Link
-            className={isActive ? "border-b-2 border-black" : undefined}
+            className={
+              isActive
+                ? "font-bold sm:font-medium sm:border-b-2 border-black"
+                : undefined
+            }
             href={link.href}
             key={link.name}
           >
