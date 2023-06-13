@@ -14,11 +14,10 @@ const Header = () => {
           Possibilities
         </Paragraph>
       </div>
-      <div className="relative -mt-16 w-full md:w-1/2 xl:w-1/3 md:mx-auto aspect-square  ">
+      <div className="relative -mt-12 w-full md:w-1/2 xl:w-1/3 md:mx-auto aspect-square  ">
         <Image
           priority
           quality={100}
-          className=""
           style={{ objectFit: "contain" }}
           fill
           src="/header.gif"
