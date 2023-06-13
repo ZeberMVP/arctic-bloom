@@ -5,7 +5,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div>
-      <div className="py-8 space-y-8  max-w-xs sm:max-w-md md:max-w-xl lg:max-w-full lg:w-1/2  mx-auto">
+      <div className="py-8 space-y-8  max-w-xs sm:max-w-md md:max-w-xl lg:max-w-full lg:w-1/2 mx-auto">
         <LargeHeading>
           Embracing the Technological Revolution: A Journey into the Future
         </LargeHeading>
@@ -25,6 +25,7 @@ const Header = () => {
           alt="header gif"
         />
       </div>
+      <div className="border xl:border-2 border-black w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 xl:w-6/12 mx-auto"></div>
     </div>
   );
 };
