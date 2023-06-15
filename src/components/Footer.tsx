@@ -19,13 +19,32 @@ const Footer = () => {
       <h3 className="text-2xl sm:text-3xl lg:text-4xl tracking-widest font-playfair font-semibold mx-auto">
         ARTIC BLOOM
       </h3>
-      <Paragraph className="text-white -mt-6 w-2/3 md:w-1/2 lg:w-1/3 mx-auto" size={"xs"}>
-        Unleashing the synergy of technology and creativity at Artic Bloom. Explore captivating articles on robotics, virtual reality, sustainable tech, and more. Ignite your imagination and join the bloom of knowledge.
+      <Paragraph
+        className="text-white -mt-6 w-2/3 md:w-1/2 lg:w-1/3 mx-auto"
+        size={"xs"}
+      >
+        Unleashing the synergy of technology and creativity at Artic Bloom.
+        Explore captivating articles on robotics, virtual reality, sustainable
+        tech, and more. Ignite your imagination and join the bloom of knowledge.
       </Paragraph>
       <div className="flex mx-auto space-x-4">
-        <a className="link" href="https://github.com/ZeberMVP">GitHub</a>
-        <a className="link" href="https://linkedin.com/in/ruben-zafra">LinkedIn</a>
-        <a className="link" href="#">RSS</a>
+        <a className="link" target="_blank" href="https://github.com/ZeberMVP">
+          GitHub
+        </a>
+        <a
+          className="link"
+          target="_blank"
+          href="https://linkedin.com/in/ruben-zafra"
+        >
+          LinkedIn
+        </a>
+        <a
+          className="link"
+          target="_blank"
+          href="https://github.com/ZeberMVP/artic-bloom"
+        >
+          Repository
+        </a>
       </div>
       <Paragraph className="text-whitem mt-6 mx-auto" size={"xs"}>
         © 2002-2023 Artic Bloom Co.

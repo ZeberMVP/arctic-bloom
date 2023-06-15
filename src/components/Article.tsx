@@ -2,9 +2,10 @@ import Image from "next/image";
 import { FC } from "react";
 import Paragraph from "@/ui/Paragraph";
 import { Facebook, Twitter } from "lucide-react";
-import LargeHeading from "./ui/LargeHeading";
+import LargeHeading from "@/ui/LargeHeading";
 
 export interface ArticleProps {
+  id: number;
   title: string;
   subtitle: string;
   date: string;
@@ -40,98 +41,97 @@ const Article: FC<ArticleProps> = ({
   tag2,
 }) => {
   return (
-    <div>
-      <div>
-        <Image
-          priority
-          quality={100}
-          className=""
-          style={{ objectFit: "contain" }}
-          fill
-          src={profilePic}
-          alt="Author's photo"
-        />
+    <div className="my-8">
+      <div className="flex flex-wrap w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 xl:w-6/12 mx-auto space-x-4 sm:space-x-6 md:mb-8">
+        <div className="relative w-20 h-20">
+          <Image
+            priority
+            quality={100}
+            className="rounded-full"
+            style={{ objectFit: "cover" }}
+            fill
+            src={profilePic}
+            alt="Author's photo"
+          />
+        </div>
+        <div className="w-4/12 py-4">
+          <h4 className="text-black font-bold">{username}</h4>
 
-        <h4>{username}</h4>
+          <Paragraph size={"xs"} className="text-left">
+            {date} • {time}
+          </Paragraph>
+        </div>
 
-        <Paragraph size={"sm"}>
-          {date} • {time}
-        </Paragraph>
-
-        <div className="join">
-          <button className="btn btn-outline join-item">
-            <Facebook />
+        <div className="join py-8 md:py-4 w-11/12 md:w-4/12 mx-auto">
+          <button className="btn w-1/2 btn-outline join-item">
+            <Facebook color="black" />
           </button>
 
-          <button className="btn btn-outlinejoin-item">
-            <Twitter />
+          <button className="btn w-1/2 btn-outline join-item">
+            <Twitter color="black" />
           </button>
         </div>
       </div>
+      <div className="w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 xl:w-6/12 py-4 space-y-8 mx-auto">
+        <Paragraph className="text-left">{first}</Paragraph>
 
-      <Paragraph>{first}</Paragraph>
+        <Paragraph className="text-left">{second}</Paragraph>
 
-      <Paragraph>{second}</Paragraph>
+        <LargeHeading size={"sm"}>{title}</LargeHeading>
 
-      <LargeHeading size={"sm"}>{title}</LargeHeading>
+        <Paragraph className="text-left">{third}</Paragraph>
 
-      <Paragraph>{third}</Paragraph>
+        <Paragraph className="text-left">{fourth}</Paragraph>
 
-      <Paragraph>{fourth}</Paragraph>
+        <div className="relative w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 xl:w-6/12 h-48 md:h-[400px] aspect-square mx-auto">
+          <Image
+            priority
+            quality={100}
+            className=""
+            style={{ objectFit: "contain" }}
+            fill
+            src={image}
+            alt="Article's photo"
+          />
+        </div>
 
-      <Image
-        priority
-        quality={100}
-        className=""
-        style={{ objectFit: "contain" }}
-        fill
-        src={image}
-        alt="Article's photo"
-      />
+        <Paragraph size={"sm"}>{subtitle}</Paragraph>
 
-      <Paragraph size={"sm"}>{subtitle}</Paragraph>
+        <Paragraph className="text-left">{fifth}</Paragraph>
 
-      <Paragraph>{fifth}</Paragraph>
+        <Paragraph className="text-left">{sixth}</Paragraph>
 
-      <Paragraph>{sixth}</Paragraph>
-
-      <Paragraph>
-        Thanks for reading,
-        <br />
-        {username}
-      </Paragraph>
-
-      <div className="join">
-        <button className="btn btn-outline join-item">
-          <Facebook />
-          <Paragraph size={"sm"}>Share on Facebook</Paragraph>
-        </button>
-
-        <button className="btn btn-outlinejoin-item">
-          <Twitter />
-          <Paragraph size={"sm"}>Share on Twitter</Paragraph>
-        </button>
+        <Paragraph className="text-left">
+          Thanks for reading,
+          <br />
+          {username}
+        </Paragraph>
       </div>
 
-      <Paragraph size={"sm"}>
+      <Paragraph className="text-left py-4 mx-auto w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 xl:w-6/12">
         Tags: <span className="underline">{tag1}</span>,{" "}
         <span className="underline">{tag2}</span>
       </Paragraph>
 
-      <div className="border border-gray-300 border-dashed w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 xl:w-6/12 mx-auto"></div>
+      <div className="border border-gray-300 border-dashed my-8 w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 xl:w-6/12 mx-auto"></div>
 
-      <div>
-        <Image
-          priority
-          quality={100}
-          className=""
-          style={{ objectFit: "contain" }}
-          fill
-          src={profilePic}
-          alt="Author's photo"
-        />
+      <div className="flex flex-wrap w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 xl:w-6/12 mx-auto space-x-4 sm:space-x-6">
+        <div className="relative w-20 h-20">
+          <Image
+            priority
+            quality={100}
+            className="rounded-full"
+            style={{ objectFit: "cover" }}
+            fill
+            src={profilePic}
+            alt="Author's photo"
+          />
+        </div>
 
-        <Paragraph size={"sm"}>
+        <Paragraph
+          size={"xs"}
+          className="text-left w-8/12 sm:w-9/12 xl:w-10/12 py-2"
+        >
           <span className="font-bold">{username}</span> is an IT Researcher,
           Vienna School of Creative Leadership Executive MBA participant,
           Zipzoom Advisor, Volt Co-founder, and Artic Bloom Stakeholder.

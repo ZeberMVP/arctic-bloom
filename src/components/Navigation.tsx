@@ -16,7 +16,7 @@ export default function Navigation({ navLinks }: NavigationProps) {
   const pathname = usePathname();
 
   return (
-    <div className="flex-none gap-2 flex-col sm:flex-row sm:space-x-4 lg:space-x-16 font-medium italic text-black navbar-end">
+    <div className="flex-1 ml-10 gap-2 flex-col sm:flex-row sm:space-x-4 lg:space-x-16 font-medium italic text-black navbar-end">
       {navLinks.map((link) => {
         const isActive = pathname === link.href;
 

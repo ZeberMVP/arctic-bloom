@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Embracing the Era of Automation: How Robots are Reshaping Industries",
     "subtitle": "Exploring the Transformative Impact of Robotics and Artificial Intelligence",
     "date": "Mar 16, 2023",
@@ -10,7 +11,7 @@
     "third": "Beyond manufacturing, robots are making significant strides in the healthcare sector. Surgical robots, for instance, are assisting surgeons with intricate procedures, enhancing precision and minimizing the risk of human error. Additionally, robotic exoskeletons are aiding in rehabilitation, helping individuals regain mobility and independence. These advancements in medical robotics are transforming patient care, enabling healthcare professionals to deliver better outcomes and improve the overall quality of life for patients.",
     "fourth": "The impact of robots is not limited to physical tasks alone; they are also revolutionizing the world of artificial intelligence. Intelligent robots equipped with machine learning algorithms can analyze vast amounts of data, identify patterns, and make informed decisions. This has profound implications for industries such as finance, where robots can assist with data analysis, risk assessment, and algorithmic trading, leading to more accurate predictions and improved investment strategies.",
     "fifth": "However, alongside the immense benefits, the era of automation also raises concerns about job displacement. As robots take over routine and repetitive tasks, there is a growing need for upskilling and reskilling the workforce to adapt to the changing job landscape. It is crucial for industries and governments to invest in training programs and education that equip individuals with the skills needed to thrive in a technology-driven world. Moreover, as robots become more sophisticated and capable of handling complex tasks, ethical considerations regarding their use and potential societal impact must be addressed.",
-    "sixth": "In conclusion, the era of automation powered by robotics and artificial intelligence is reshaping industries in profound ways. From enhancing efficiency and productivity to revolutionizing healthcare and driving advancements in artificial intelligence, robots are at the forefront of this transformative wave. While there are challenges to navigate, embracing this era of automation presents us with tremendous opportunities for innovation, economic growth, and improved quality of life. As we move forward, it is crucial to strike a balance between harnessing the power of robots and ensuring a human-centric approach that values the unique skills and capabilities we possess.",
+    "sixth": "The era of automation powered by robotics and artificial intelligence is reshaping industries in profound ways. From enhancing efficiency and productivity to revolutionizing healthcare and driving advancements in artificial intelligence, robots are at the forefront of this transformative wave. While there are challenges to navigate, embracing this era of automation presents us with tremendous opportunities for innovation, economic growth, and improved quality of life. As we move forward, it is crucial to strike a balance between harnessing the power of robots and ensuring a human-centric approach that values the unique skills and capabilities we possess.",
     "image": "https://images.unsplash.com/photo-1593349480506-8433634cdcbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHJvYm90fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     "tag1": "robotics",
     "tag2": "artificial intelligence",
@@ -18,6 +19,7 @@
     "profilePic": "https://randomuser.me/api/portraits/men/23.jpg"
   },
   {
+    "id": 2,
     "title": "Exploring the Frontier of Virtual Reality: A Glimpse into Immersive Experiences",
     "subtitle": "Unveiling the Next Generation of Digital Realism",
     "date": "Jul 9, 2022",
@@ -35,6 +37,7 @@
     "profilePic": "https://randomuser.me/api/portraits/women/67.jpg"
   },
   {
+    "id": 3,
     "title": "The Next Frontier: Unraveling the Potential of Quantum Computing",
     "subtitle": "Exploring the Revolutionary Power of Quantum Computing",
     "date": "Oct 26, 2022",
@@ -44,7 +47,7 @@
     "third": "One of the most promising applications of quantum computing lies in cryptography. Quantum computers have the potential to break commonly used encryption algorithms, which could have significant implications for data security. At the same time, quantum cryptography offers the possibility of secure communication channels that are immune to hacking attempts.",
     "fourth": "Quantum computing also holds great promise in areas such as drug discovery, optimization problems, and materials science. The ability to simulate molecular interactions accurately could revolutionize the process of drug design and lead to the discovery of new therapies. Furthermore, quantum algorithms can optimize complex logistical and scheduling problems, helping streamline supply chains and improve efficiency.",
     "fifth": "However, building and operating practical quantum computers is an ongoing challenge. Qubits are extremely fragile and susceptible to noise and decoherence, which can lead to errors in computations. Scientists and engineers are actively researching methods to mitigate these challenges, such as error correction techniques and new qubit architectures.",
-    "sixth": "In conclusion, quantum computing represents the next frontier in technological advancement. Its immense computational power has the potential to revolutionize various industries and solve problems that were once considered unsolvable. While there are still significant challenges to overcome, the progress made in quantum computing is inspiring and paves the way for a future where quantum algorithms and technologies become an integral part of our daily lives.",
+    "sixth": "Quantum computing represents the next frontier in technological advancement. Its immense computational power has the potential to revolutionize various industries and solve problems that were once considered unsolvable. While there are still significant challenges to overcome, the progress made in quantum computing is inspiring and paves the way for a future where quantum algorithms and technologies become an integral part of our daily lives.",
     "image": "https://images.unsplash.com/photo-1591306208574-969f12f1ebfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHF1YW50dW18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     "tag1": "quantum computing",
     "tag2": "computational power",
@@ -52,6 +55,7 @@
     "profilePic": "https://randomuser.me/api/portraits/women/39.jpg"
   },
   {
+    "id": 4,
     "title": "Unleashing Creativity: How Technology is Empowering Artists and Designers",
     "subtitle": "Exploring the Intersection of Art, Design, and Technology",
     "date": "Jan 15, 2023",
@@ -61,7 +65,7 @@
     "third": "Moreover, technology has opened up new avenues for collaboration and experimentation. Artists and designers can now connect and collaborate with peers from around the world, sharing ideas, techniques, and inspiration in real-time. Virtual communities and online platforms have become thriving spaces for creative exchange, fostering a global network of artists and designers.",
     "fourth": "The fusion of traditional art forms with technology has led to the emergence of exciting new mediums and art forms. Digital art, interactive installations, virtual reality experiences, and augmented reality exhibitions are just a few examples of how technology is reshaping the art landscape. These immersive and interactive experiences engage audiences in novel ways, challenging traditional notions of art and pushing the boundaries of creativity.",
     "fifth": "Technology has also revolutionized the design industry, enabling designers to create innovative and user-centered solutions. User experience (UX) design, for instance, leverages technology to understand and cater to the needs and preferences of users, ensuring intuitive and engaging experiences. Product designers can use advanced prototyping tools to bring their ideas to life, test concepts, and iterate quickly.",
-    "sixth": "In conclusion, the marriage of technology and creativity has unlocked immense potential for artists and designers. By harnessing the power of digital tools, collaborating globally, and embracing new mediums, creatives are pushing the boundaries of what is possible. As technology continues to advance, we can expect even more exciting opportunities for artistic expression and design innovation, shaping the future of the creative industries.",
+    "sixth": "The marriage of technology and creativity has unlocked immense potential for artists and designers. By harnessing the power of digital tools, collaborating globally, and embracing new mediums, creatives are pushing the boundaries of what is possible. As technology continues to advance, we can expect even more exciting opportunities for artistic expression and design innovation, shaping the future of the creative industries.",
     "image": "https://images.unsplash.com/photo-1608568746007-00498a568153?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGNyZWF0aXZpdHl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     "tag1": "technology",
     "tag2": "art and design",
@@ -69,6 +73,7 @@
     "profilePic": "https://randomuser.me/api/portraits/women/23.jpg"
   },
   {
+    "id": 5,
     "title": "The Future of Work: Navigating the Changing Landscape of Digital Jobs",
     "subtitle": "Exploring the Shift Towards Digital Skills and Remote Work",
     "date": "May 2, 2023",
@@ -78,7 +83,7 @@
     "third": "Another significant shift in the future of work is the rise of remote and flexible work arrangements. The COVID-19 pandemic accelerated the adoption of remote work practices, demonstrating the feasibility and benefits of working from anywhere. This trend is expected to continue, with companies embracing hybrid models and providing employees with greater flexibility in choosing their work locations. Remote work opens up new opportunities for individuals to work for global companies, collaborate with diverse teams, and achieve a better work-life balance.",
     "fourth": "However, navigating the changing landscape of digital jobs requires continuous learning and adaptability. As technology evolves, so do the skills needed to stay relevant in the job market. Lifelong learning and upskilling are essential to keep pace with emerging technologies and industry trends. Individuals who proactively embrace learning opportunities and develop a growth mindset will be better equipped to navigate the shifting job landscape.",
     "fifth": "Furthermore, the future of work also brings forth ethical considerations and challenges. As automation replaces certain tasks, ensuring a just transition for workers and addressing potential inequalities become crucial. Additionally, remote work poses its own set of challenges, including maintaining work-life boundaries and fostering collaboration and team cohesion in virtual environments. It is essential for organizations and policymakers to address these issues and create supportive frameworks to ensure a successful transition into the future of work.",
-    "sixth": "In conclusion, the future of work is evolving in response to technological advancements and changing work dynamics. Digital skills and remote work are becoming increasingly prevalent, requiring individuals to adapt and acquire new competencies. By embracing lifelong learning, being adaptable, and addressing ethical considerations, we can navigate the changing landscape of digital jobs and seize the opportunities it presents. The future of work holds the promise of flexibility, global collaboration, and a more inclusive and sustainable work environment.",
+    "sixth": "The future of work is evolving in response to technological advancements and changing work dynamics. Digital skills and remote work are becoming increasingly prevalent, requiring individuals to adapt and acquire new competencies. By embracing lifelong learning, being adaptable, and addressing ethical considerations, we can navigate the changing landscape of digital jobs and seize the opportunities it presents. The future of work holds the promise of flexibility, global collaboration, and a more inclusive and sustainable work environment.",
     "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29ya3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
     "tag1": "future of work",
     "tag2": "digital skills",
@@ -86,6 +91,7 @@
     "profilePic": "https://randomuser.me/api/portraits/men/57.jpg"
   },
   {
+    "id": 6,
     "title": "Beyond Screens: The Advent of Holographic Displays and Interactive Interfaces",
     "subtitle": "Exploring the Future of Visual Displays and User Interaction",
     "date": "Aug 18, 2022",
@@ -95,7 +101,7 @@
     "third": "Interactive interfaces complement holographic displays by allowing users to manipulate and interact with digital content in intuitive and natural ways. Gesture-based controls, touchless interfaces, and augmented reality overlays enable users to engage with virtual objects as if they were physically present. This blurs the boundaries between the digital and physical worlds, opening up exciting opportunities for fields such as education, healthcare, and product design.",
     "fourth": "The potential applications of holographic displays and interactive interfaces are vast. In the field of education, holographic displays can enhance learning experiences by visualizing complex concepts and enabling students to interact with virtual models. In healthcare, surgeons can benefit from holographic overlays that provide real-time information during surgeries, improving precision and reducing risks. Additionally, holographic displays have the potential to revolutionize the entertainment industry, creating immersive and interactive experiences that go beyond traditional screens.",
     "fifth": "While holographic displays and interactive interfaces hold immense promise, there are still challenges to overcome. Miniaturizing the technology and making it more accessible and affordable for everyday use is a key hurdle. Additionally, ensuring privacy and security in interactive interfaces is essential to protect user data and maintain trust in these technologies. Ongoing research and innovation are necessary to address these challenges and unlock the full potential of holographic displays and interactive interfaces.",
-    "sixth": "In conclusion, the advent of holographic displays and interactive interfaces represents a paradigm shift in visual displays and user interaction. As these technologies continue to advance, we can expect a future where digital content seamlessly integrates with our physical environment, blurring the boundaries between the real and virtual worlds. From entertainment and education to healthcare and design, holographic displays and interactive interfaces have the potential to reshape industries and revolutionize the way we perceive and interact with digital content.",
+    "sixth": "The advent of holographic displays and interactive interfaces represents a paradigm shift in visual displays and user interaction. As these technologies continue to advance, we can expect a future where digital content seamlessly integrates with our physical environment, blurring the boundaries between the real and virtual worlds. From entertainment and education to healthcare and design, holographic displays and interactive interfaces have the potential to reshape industries and revolutionize the way we perceive and interact with digital content.",
     "image": "https://plus.unsplash.com/premium_photo-1663012879153-5a846b556963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE1fHxob2xvZ3JhbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
     "tag1": "holographic displays",
     "tag2": "interactive interfaces",
@@ -103,6 +109,7 @@
     "profilePic": "https://randomuser.me/api/portraits/women/45.jpg"
   },
   {
+    "id": 7,
     "title": "Tech Innovation in Healthcare: Revolutionizing Patient Care and Wellness",
     "subtitle": "Exploring the Impact of Technology on Healthcare Services",
     "date": "Oct 29, 2022",
@@ -120,6 +127,7 @@
     "profilePic": "https://randomuser.me/api/portraits/men/78.jpg"
   },
   {
+    "id": 8,
     "title": "Smart Homes: Living in the Era of Connected Living Spaces",
     "subtitle": "Exploring the Benefits and Possibilities of Home Automation",
     "date": "Dec 15, 2022",
@@ -137,6 +145,7 @@
     "profilePic": "https://randomuser.me/api/portraits/women/32.jpg"
   },
   {
+    "id": 9,
     "title": "Sustainable Tech: Pioneering Eco-Friendly Solutions for a Greener Future",
     "subtitle": "Exploring the Intersection of Technology and Sustainability",
     "date": "Feb 22, 2023",
@@ -155,6 +164,7 @@
   },
 
   {
+    "id": 10,
     "title": "Tech in Education: Transforming Learning and Empowering Students for Success",
     "subtitle": "Exploring the Role of Technology in Enhancing Education",
     "date": "Apr 18, 2024",
