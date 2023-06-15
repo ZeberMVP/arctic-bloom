@@ -1,7 +1,7 @@
 import ArticleList from "@/components/ArticleList";
 import type { Metadata } from "next";
-import data from "../../articles/articles.json";
-import LargeHeading from "@/components/ui/LargeHeading";
+import data from "@/articles/articles.json";
+import LargeHeading from "@/ui/LargeHeading";
 
 export const metadata: Metadata = {
   title: "Artic Bloom | Blog",
