@@ -1,4 +1,7 @@
+import ArticleList from "@/components/ArticleList";
 import type { Metadata } from "next";
+import data from "../../articles/articles.json";
+import LargeHeading from "@/components/ui/LargeHeading";
 
 export const metadata: Metadata = {
   title: "Artic Bloom | Blog",
@@ -7,9 +10,12 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  const articles = [...data];
+
   return (
-    <div>
-      <main className="min-h-[100rem] bg-white" />
-    </div>
+    <main className="min-h-[100rem] py-8 bg-white">
+      <LargeHeading>All articles</LargeHeading>
+      <ArticleList articles={articles} />
+    </main>
   );
 }

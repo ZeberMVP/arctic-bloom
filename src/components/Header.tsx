@@ -5,7 +5,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div>
-      <div className="py-8 space-y-8  max-w-xs sm:max-w-md md:max-w-xl lg:max-w-full lg:w-1/2 mx-auto">
+      <div className="py-8 space-y-8  max-w-xs sm:max-w-md md:max-w-xl xl:max-w-full xl:w-1/2 mx-auto">
         <LargeHeading>
           Embracing the Technological Revolution: A Journey into the Future
         </LargeHeading>
