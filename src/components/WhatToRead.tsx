@@ -18,28 +18,33 @@ const WhatToRead: FC<WhatToReadProps> = ({ articles }) => {
         </div>
       </div>
       <LargeHeading className="pt-16 pb-8">What to read next</LargeHeading>
-      {articles.map((article) => (
-        <Link
-          key={article.id}
-          href={`/articles/${article.id}`}
-          className="md:w-1/2"
-        >
-          <div className="relative -mt-6 w-11/12 aspect-square mx-auto">
-            <Image
-              quality={100}
-              className=""
-              style={{ objectFit: "contain" }}
-              fill
-              src={article.image}
-              alt="Article' photo"
-            />
-          </div>
-          <Paragraph size={"lg"} className="-mt-10 w-9/12 mx-auto">
-            {article.title}
-          </Paragraph>
-        </Link>
-      ))}
-      <div className="border-[5px] border-black my-16"></div>
+      <div className="md:flex">
+        {articles.map((article) => (
+          <Link
+            key={article.id}
+            href={`/articles/${article.id}`}
+            className="md:w-1/3"
+          >
+            <div className="relative -mt-6 w-11/12 aspect-square mx-auto">
+              <Image
+                quality={100}
+                className=""
+                style={{ objectFit: "contain" }}
+                fill
+                src={article.image}
+                alt="Article' photo"
+              />
+            </div>
+            <Paragraph
+              size={"lg"}
+              className="-mt-10 w-9/12 mx-auto md:text-sm lg:text-base xl:text-lg md:pt-4 lg:pt-2 xl:pt-0"
+            >
+              {article.title}
+            </Paragraph>
+          </Link>
+        ))}
+      </div>
+      <div className="border-[5px] border-black my-16 md:hidden"></div>
     </div>
   );
 };
