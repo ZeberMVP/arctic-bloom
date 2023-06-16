@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="flex-none">
         <Link href="/">
           <h3 className="text-2xl  sm:text-3xl lg:text-4xl font-playfair font-semibold text-black">
-            ARTIC BLOOM
+            ARCTIC BLOOM
           </h3>
         </Link>
       </div>

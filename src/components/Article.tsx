@@ -134,7 +134,7 @@ const Article: FC<ArticleProps> = ({
         >
           <span className="font-bold">{username}</span> is an IT Researcher,
           Vienna School of Creative Leadership Executive MBA participant,
-          Zipzoom Advisor, Volt Co-founder, and Artic Bloom Stakeholder.
+          Zipzoom Advisor, Volt Co-founder, and Arctic Bloom Stakeholder.
         </Paragraph>
       </div>
     </div>

@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Artic Bloom",
+  title: "Arctic Bloom",
   description:
     "Embracing the Technological Revolution: A Journey into the Future",
 };

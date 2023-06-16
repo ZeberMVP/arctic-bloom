@@ -4,7 +4,7 @@ import data from "@/articles/articles.json";
 import LargeHeading from "@/ui/LargeHeading";
 
 export const metadata: Metadata = {
-  title: "Artic Bloom | Blog",
+  title: "Arctic Bloom | Blog",
   description:
     "Embracing the Technological Revolution: A Journey into the Future",
 };
