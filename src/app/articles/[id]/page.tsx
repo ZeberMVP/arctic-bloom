@@ -6,6 +6,7 @@ import data from "@/articles/articles.json";
 import Article from "@/components/Article";
 import WhatToRead from "@/components/WhatToRead";
 import type { ArticleProps } from "@/components/Article";
+import Newsletter from "@/components/Newsletter";
 
 const ArticlePage = () => {
   const params = useParams();
@@ -66,6 +67,7 @@ const ArticlePage = () => {
         tag2={article.tag2}
       />
       <WhatToRead articles={randomArticles} />
+      <Newsletter />
     </main>
   );
 };

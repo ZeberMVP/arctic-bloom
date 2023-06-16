@@ -44,7 +44,6 @@ const WhatToRead: FC<WhatToReadProps> = ({ articles }) => {
           </Link>
         ))}
       </div>
-      <div className="border-[5px] border-black my-16 md:hidden"></div>
     </div>
   );
 };

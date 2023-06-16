@@ -4,7 +4,7 @@ import Paragraph from "@/ui/Paragraph";
 const Footer = () => {
   return (
     <footer className="footer md:flex md:flex-col bg-black text-white">
-      <Marquee className="tracking-wider py-4 text-xl" autoFill={true}>
+      <Marquee className="tracking-wider py-3 text-xl" autoFill={true}>
         <strong>Robotics&nbsp;&nbsp;</strong>
         <span>Artificial Intelligence&nbsp;&nbsp;</span>
         <strong>Virtual Reality&nbsp;&nbsp;</strong>
