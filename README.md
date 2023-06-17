@@ -1,6 +1,6 @@
 # Arctic Bloom
 
-Watch [here](https://artic-bloom.vercel.app/) the live website deployed on Vercel
+Watch [here](https://arctic-bloom.vercel.app/) the live website deployed on Vercel
 
 ## Technologies I used in the development of this project
 <p align="left">
