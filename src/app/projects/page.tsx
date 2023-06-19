@@ -102,7 +102,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="card bg-white md:w-5/12 shadow-xl mx-auto border border-slate-400">
+        <div className="card bg-white md:w-5/12 shadow-xl mx-auto border border-slate-400 mb-12 md:mb-0">
           <figure className="relative aspect-square w-10/12 mx-auto">
             <Image
               src="https://images.unsplash.com/photo-1528158477878-c8036dc3c31a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmFybSUyMHRlY2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
